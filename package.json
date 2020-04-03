@@ -1,0 +1,23 @@
+{
+  "name": "ox-bot",
+  "version": "1.0.0",
+  "description": "Default bot for personalize in discord",
+  "main": "ox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node core"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeLacer/Ox-Bot.git"
+  },
+  "author": "Lucas Lacerda de LIma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukeLacer/Ox-Bot/issues"
+  },
+  "homepage": "https://github.com/LukeLacer/Ox-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.1.1"
+  }
+}

@@ -13,7 +13,7 @@ client.on("ready", () => { //When bot ready do this arrow function
 client.on("message", (msg) => { //when anyone send a message this arrow function will trigger
     if(!msg.author.bot){ //If who sended isn't a bot... (Because the bot was replying hiself)
         console.log(`${msg.author}: ${msg.content}`) //send in the terminal "name of who send: msg sended"
-        if (msg.content = "ola") msg.reply("ola") //reply with "ola"
+        if (msg.content = `${config.prefix}ola`) msg.reply("ola") //reply with "ola"
     }
 })
 
